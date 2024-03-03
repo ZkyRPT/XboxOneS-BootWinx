@@ -1,0 +1,50 @@
+- windows on a xbox is not really easy due to xwsecurity services and some oem restrciction from microsoft
+
+- SUPPORTED XBOX'S
+- xbox one s ( no slims version no other version )
+- ___________________________________
+- gpu support will be worked on.
+- cpu support being worked on...
+- drAudio will be worked on..
+- ___________________________________
+- TARGETED VERSION: Windows 10 1709 XS Edition ( modified )
+- ___________________________________
+- audio not working
+- gpu not working
+- drivers from ndvia will not work or amd.
+- can emulate windows pretty well
+- ___________________________________
+- xbox use a special southbridge to commuinate the others devices or spherillas.
+- since is a krnsouth it will not support ntfs file system.
+- a bios file will be gived to flash it ( WARNING ) ( do not unplug usb drive or the power. im qm not responsable for the damage.
+- _________________________________________________
+- steps
+
+- 1 go to recovery mode ( power buttom + disk )
+- - get a usb drive 8gb max
+  - create a folder on it called X-Update-X
+  - and a other called X-payload
+  - - on the X-update-X create FlOEM.2 file now import this reg ( xbox.register.false.oem= 0 /nativeunlock= true )
+    - import the bios file on the payload ( xBiosupdate.rom )
+    - unplug the usb and plug it into ur xbox now go to update whith a usb .
+    - during the update wait go watch smth or drink
+    - during the reboot process if u hear a beep dont worry
+    - during the process u will See ( BIOS = Flashing Starting... )
+    - during the process when is done the xbox will reboot whith the logo Named X
+    - during the process u will see press f12 to get to the boot menu or f1 to get to the bios
+    - during the process press f1 and use a keyboard and go to rmsideload
+    - during the process in rmsideload section activate rmside and arm86 unsupported and activate ntfs support
+    - during the procrss grab a usb flash drivr and flash the iso or img will be gived
+    - during the process reboot and save
+    - during the process press f12 8times until u see the boot menu
+    - during the process boot into ur usb
+    - during the process when windows is finished dont destory the (  o:  drive ntsupport )
+    - destrory the others partitions
+    - and open cmd ( shift + f12 ) convert gpt and ntfs the drive
+    - during the procrss when windows gonna be finished if u get a bsod thats normal just we injected a payload during the bsod is gonna install some reg and everything
+    - windows will say ready up or smth like that just wait the oobe will finish everything when is finished a quick reboot and done
+    - windows is installed on ur xbox also dont put it to sleep mode it will bsod and dont try to install drivers.
+   
+- INFORMATIONS
+
+- ISO AND BILS FILE AND DRIVERS AND PAYLOADS ARE GETTING READY AND BUILT DONT WORRY IF U DONT GET IT
